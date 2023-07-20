@@ -111,35 +111,35 @@ header .navbar a:hover{
 
 header input{
        display: none;
-										  }
+}
 
-																												  header label{
-																													      font-size: 3rem;
-																													          color:var(--purple);
-																														      cursor: pointer;
-																														          visibility: hidden;
-																															      opacity: 0;
-																														      }
+header label{
+     font-size: 3rem;
+     color:var(--purple);
+     cursor: pointer;
+     visibility: hidden;
+     opacity: 0;
+}
 
-																														      .home{
-																															          display: flex;
-																																      align-items: center;
-																																          justify-content: center;
-																																	      background:url(../images/home-bg-img.png) no-repeat;
-																																	          background-size: cover;
-																																		      background-position: center;
-																																	      }
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(../images/home-bg-img.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
-																																	      .home .image img{
-																																		          width:40vw;
-																																			      animation: float 3s linear infinite;
-																																		      }
+.home .image img{
+    width:40vw;
+    animation: float 3s linear infinite;
+}
 
-																																		      @keyframes float{
-																																			          0%, 100%{
-																																					          transform: translateY(0rem);
-																																						      }
-																																						          50%{
+@keyframes float{
+     0%, 100%{
+     transform: translateY(0rem);
+}
+    50%{
 																																								          transform: translateY(-3.5rem);
 																																									      }
 																																								      }
