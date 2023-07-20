@@ -95,23 +95,23 @@ header .logo{
      color:var(--purple);
 }
 
-																									  header .logo span{
-																										      color:var(--pink);
-																									      }
+header .logo span{
+      color:var(--pink);
+}
 
-																									      header .navbar a{
-																										          font-size: 1.7rem;
-																											      margin-left: 2rem;
-																											          color:var(--purple);
-																											  }
+header .navbar a{
+       font-size: 1.7rem;
+       margin-left: 2rem;
+       color:var(--purple);
+}
 
-																											  header .navbar a:hover{
-																												      color:var(--pink);
-																											      }
+header .navbar a:hover{
+      color:var(--pink);
+}
 
-																											      header input{
-																												          display: none;
-																												  }
+header input{
+       display: none;
+										  }
 
 																												  header label{
 																													      font-size: 3rem;
